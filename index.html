@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="quizWrapper">
+        <div class="quizHeader">
+          <button class="btn infoQuizBtn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="64"
+              height="64"
+              viewBox="0 0 24 24"
+              fill="#2196F3"
+            >
+              <path
+                d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+              />
+              <circle cx="12" cy="6" r="1" />
+            </svg>
+          </button>
+
+          <p class="questionCount">
+            Question <span class="wchichQuestion">1</span>/<span
+              class="maxQuestion"
+              >10</span
+            >
+          </p>
+
+          <button class="btn closeQuizBtn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="64"
+              height="64"
+              viewBox="0 0 24 24"
+              fill="#6C757D"
+            >
+              <path
+                d="M19.414 6.586l-1.414-1.414L12 11.172l-5.586-5.586-1.414 1.414L10.586 12l-5.586 5.586 1.414 1.414L12 12.828l5.586 5.586 1.414-1.414L13.414 12z"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="questionContainer">
+          <div class="questionWrapper">
+            <p class="question">
+              W którym roku urodziła się Maria Skłodowska Curie?
+            </p>
+          </div>
+          <div class="test">
+            <p class="testII"></p>
+          </div>
+          <div class="answerWrapper">
+            <ul class="answerList">
+              <li class="answerListItem">
+                <p class="answerNumber">A</p>
+                <p class="answer">1020</p>
+                <p class="answerIcon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="64"
+                    height="64"
+                    viewBox="0 0 24 24"
+                    fill="#343A40"
+                  >
+                    <path
+                      d="M9 19.414l-6.707-6.707 1.414-1.414 5.293 5.293 10.293-10.293 1.414 1.414z"
+                    />
+                  </svg>
+                </p>
+              </li>
+              <li class="answerListItem">
+                <p class="answerNumber">B</p>
+                <p class="answer">1020</p>
+                <p class="answerIcon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="64"
+                    height="64"
+                    viewBox="0 0 24 24"
+                    fill="#343A40"
+                  >
+                    <path
+                      d="M9 19.414l-6.707-6.707 1.414-1.414 5.293 5.293 10.293-10.293 1.414 1.414z"
+                    />
+                  </svg>
+                </p>
+              </li>
+              <li class="answerListItem">
+                <p class="answerNumber">C</p>
+                <p class="answer">1020</p>
+                <p class="answerIcon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="64"
+                    height="64"
+                    viewBox="0 0 24 24"
+                    fill="#343A40"
+                  >
+                    <path
+                      d="M9 19.414l-6.707-6.707 1.414-1.414 5.293 5.293 10.293-10.293 1.414 1.414z"
+                    />
+                  </svg>
+                </p>
+              </li>
+              <li class="answerListItem">
+                <p class="answerNumber">D</p>
+                <p class="answer">Gazorpazorp pudding</p>
+                <p class="answerIcon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="64"
+                    height="64"
+                    viewBox="0 0 24 24"
+                    fill="#343A40"
+                  >
+                    <path
+                      d="M9 19.414l-6.707-6.707 1.414-1.414 5.293 5.293 10.293-10.293 1.414 1.414z"
+                    />
+                  </svg>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <button class="nextQuestionBtn">Next question</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
